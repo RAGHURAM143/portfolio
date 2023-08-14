@@ -45,7 +45,7 @@ padding: 0;
 }
 .devpic img{
     width:360px;
-    height:60vh;
+    height:auto;
    
 }
 .devinfo{
