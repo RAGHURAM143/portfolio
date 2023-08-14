@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+
+}
+.sidebar{
+    background-color: rgb(167, 166, 166);
+   
+    font-family: 'Cabin', sans-serif;
+    height:100vh;
+    transition:transform 0.3s ease-in;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.sidebar nav{
+    margin-top: 35px;
+    padding: 5px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding:30px;
+}
+.container{
+    display: flex;
+    height:100vh;
+}
+.main{
+    /*background-color: yellow;*/
+        width:90vw;
+        padding:23px;
+}
+.infocontainer{
+   /* background-color: pink;*/
+    height: 60vh;
+    width:80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.devpic img{
+    width:360px;
+    height:60vh;
+   
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-size: 25px;
+}
+.btn{
+    margin-top: 35px;
+}
+.btn button{
+    font-weight: bold;
+    color: white;
+    padding:9px 12px;
+    font-size: medium;
+    border-color: #dcf2f5;
+    border-radius:20px;
+    margin:0 15px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.btn button:hover{
+    
+    background-color: white;
+    color:dodgerblue;
+
+}
+.contactform{
+    margin:250px;
+    margin-left:60px;
+}
+.contactform h1{
+ text-align:center;
+ padding:5px 0;
+}
+
+.contactform form div{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:26vw;
+    border-radius:5px;
+    margin:6px 0 0 0;
+    padding :3px;
+
+}
+#emailHelp{
+    font-size:small;
+    margin:5px;
+    color:midnightblue;
+}
+#form-check{
+    flex-direction:row;
+
+}
+#form-check input{
+    margin:3px 0;
+    width:24px;
+}
+h2{
+    font-family: 'Cabin', sans-serif;
+    margin-left: 25px;
+}
+.skills h1{
+    margin:25px;
+}
+.skillcontainer{
+    align-content: center;
+    padding:15px;
+}
+.skills{
+    width:265px;
+    height:6px;
+    background-color: red;
+    border:2px solid black;
+    
+
+}
+.skillitem{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.s5{
+    width:200px;
+    height:6px;
+    background-color: blue;
+}
+.f0{
+    width:130px;
+    height:6px;
+    background-color:yellow;
+
+}
+.main h1{
+    margin-top:15px;
+}
+@media (max-width:1473px) {
+    *{
+        background-color: rgb(255, 255, 255);
+    }
+   
+    
+    
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    margin-top:20px;
+}
+.cross{
+    margin-left:220px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position:absolute;
+}
+.educontainer h2{
+    align-content: center;
+}
+.edu{
+    border: 2px solid black;
+    background-color: rgb(197 194 194);
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    height: 350px;
+}
+.edu td,th{
+    border:2px solid black;
+}
